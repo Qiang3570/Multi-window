@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.johnny.multi_window">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--此活动在新的任务栈中启动，无任何标志或设置-->
+        <activity android:name=".DefualtActivity"
+            android:taskAffinity=""/>
+        <!--此活动不支持多窗口模式，无法调整大小，始终以全屏显示-->
+        <activity android:name=".UnresizableActivity"
+            android:resizeableActivity="false"
+            android:taskAffinity=""/>
+        <!--在分屏模式下，此活动将在另一活动的邻近分屏内启动，这是通过再启动活动时，通过意图设置的标志来进行控制-->
+        <activity
+            android:name=".AdjacentActivity"
+            android:taskAffinity="" />
+        <!--此活动本身处理所有配置更改. 在“onConfigurationChanged”中接收到用于配置更改的回调.-->
+        <activity
+            android:name=".CustomConfigurationChangeActivity"
+            android:configChanges="screenSize|orientation|smallestScreenSize|screenLayout"
+            android:launchMode="singleInstance"
+            android:taskAffinity="" />
+        <!--此活动具有最小大小的默认大小(750x500dp)(500dp在最短边).
+            默认情况下，它在顶部/末端(上/右)角落启动.
+            这些属性在'活动'定义中的“布局”标签中定义.-->
+        <activity
+            android:name=".MinimumSizeActivity"
+            android:launchMode="singleInstance"
+            android:taskAffinity="">
+            <layout
+                android:defaultHeight="500dp"
+                android:defaultWidth="750dp"
+                android:gravity="top|end"
+                android:minWidth="500dp"
+                android:minHeight="500dp" />
+        </activity>
+        <!--此活动在其启动意图中定义的区域内启动.-->
+        <activity
+            android:name=".LaunchBoundsActivity"
+            android:taskAffinity="" />
+    </application>
+
+</manifest>

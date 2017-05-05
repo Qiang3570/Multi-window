@@ -1,0 +1,57 @@
+<!--
+  Copyright (C) 2016 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">Multi-window</string>
+    <string name="introduction_title">Multi-window(多窗口)</string>
+    <string name="sample_introduction">该实例演示了多窗口API的使用,在Android N中可用.\n 首先要将此应用切换至
+        <b>分屏模式下</b>
+        (例如通过长按进程管理按钮). 以下每个按钮都会启动新的活动并使用特殊标志.\n<b>详情请参阅 MainActivity.java 与 AndroidManifest.xml 实施细节.</b>
+    </string>
+    <string name="sample_freeform_introduction">以下按钮仅显示功能. <b>free-form(自由模式) or multi-window mode(多窗口模式)</b>可用.</string>
+    <string name="start_default">启动一个默认的Activity</string>
+    <string name="start_unresizable">启动一个不支持多窗口模式的Activity</string>
+    <string name="start_adjacent">在另一个分屏处启动一个Activity</string>
+    <string name="start_custom_activity">启动一个处理所有配置更改的Activity</string>
+    <string name="start_minimum">以最小尺寸启动Activity</string>
+    <string name="start_bounds">在指定区域启动Activity</string>
+
+    <string name="activity_description_basic">这是一个默认的Activity,此活动使用默认的启动方式，无任何标志或设置
+    </string>
+    <string name="activity_description_unresizable">此活动在 AndroidManifest 中被设置为\'unresizable\'.
+        这是通过将 <i>resizeableActivity</i> 属性设置为
+        <i>false</i> 来完成的. 因此本活动不支持多窗口模式.
+    </string>
+    <string name="activity_adjacent_description">该活动是由<b>Intent.FLAG_ACTIVITY_LAUNCH_ADJACENT</b>模式进入.
+        如果本活动支持多窗口模式，那么本活动将会在相邻窗口启动.
+        反之如果本活动不支持多窗口模式，那么系统将会给出提示，并全屏启动本活动.
+        \n<b>注意：如果应用程序未处于分屏模式运行状态，那么启动该活动也会全屏显示.
+            如果本活动与old活动存在同一任务栈中，将保留其活动属性及其位置.</b>
+    </string>
+    <string name="activity_custom_description">此活动本身处理配置更改. 在AndroidManifest中此活动已设置为接收回调对于
+        <b>screenSize|smallestScreenSize|screenLayout|orientation</b>的更改.\n你可以将本活动调整为不同的大小以查看那些配置进行了改变.
+    </string>
+    <string name="activity_minimum_description">此活动具有最小尺寸.
+        \n以启动进入顶端/端角,默认尺寸为750dp,500dp,最小尺寸为750dp.
+        在在AndroidManifest定义中定义布局属性<b>\'layout\'</b>并设置其参数.
+        \ n请注意，此活动是在不同的任务中启动的，否则属性来自
+        启动此操作的活动将被应用.
+    </string>
+    <string name="activity_bounds_description">这个活动已经启动了一个启动边界设定其意图.
+        \n界限定义了活动应该启动的区域.
+        \n<b>请注意，此标志仅适用于自由格式模式.</b>
+    </string>
+</resources>
