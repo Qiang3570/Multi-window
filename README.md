@@ -3,7 +3,7 @@
 * [点我阅读详细文档](https://github.com/Qiang3570/Multi-window/wiki)
 
 ## License
-Copyright [C2017] [Qiang3570@126.com or zstrong911@gmail.com]
+Copyright [C 2017] [Qiang3570@126.com or zstrong911@gmail.com]
 
 Licensed under the Apache License, Version 2.0 (the "License");</br>
 you may not use this file except in compliance with the License.</br>
