@@ -5,8 +5,8 @@
 ## License
 Copyright [C2017] [Qiang3570@126.com or zstrong911@gmail.com]
 
-Licensed under the Apache License, Version 2.0 (the "License");<b>
-you may not use this file except in compliance with the License.<b>
+Licensed under the Apache License, Version 2.0 (the "License");</br>
+you may not use this file except in compliance with the License.</br>
 You may obtain a copy of the License at
 
 [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0)
