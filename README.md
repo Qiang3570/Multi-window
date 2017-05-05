@@ -8,7 +8,7 @@ Android N 允许多个应用同时共享屏幕。例如，用户可以分屏显�
 * 在运行 Android N 的 Nexus Player 上，应用能以画中画模式显示，即在用户浏览网页或与其他应用交互的同时继续显示内容。
 * 较大设备的制造商可选择启用自由形状模式，在该模式中，用户可以自由调整各 Activity 的尺寸。 若制造商启用此功能，设备将同时具有自由形状模式和分屏模式。
 
-![alt]()
+![alt](https://github.com/Qiang3570/Multi-window/raw/master/img/mw-splitscreen.png)
 ><b>图1：</b>两个应用在分屏模式中左右并排显示。
 
 * 若用户打开 Overview 屏幕并长按 Activity 标题，则可以拖动该 Activity 至屏幕突出显示的区域，使 Activity 进入多窗口模式。
