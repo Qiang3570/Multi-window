@@ -1,4 +1,4 @@
-# Multi-window(多窗口支持)![API](https://img.shields.io/badge/API-24%2B-blue.svg?style=flat)
+# Multi-window(多窗口支持)   * ![API](https://img.shields.io/badge/API-24%2B-blue.svg?style=flat)
 
 Android N 添加了对同时显示多个应用窗口的支持。 在手持设备上，两个应用可以在“分屏”模式中左右并排或上下并排显示。 在电视设备上，应用可以使用“画中画”模式，在用户与另一个应用交互的同时继续播放视频。
 
