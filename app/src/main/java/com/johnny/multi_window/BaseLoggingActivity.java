@@ -15,6 +15,11 @@ import com.logger.LogWrapper;
 import com.logger.MessageOnlyLogFilter;
 
 /**
+ * Author QQ：956595454.
+ * Android Group：158423375.
+ * Author email：Qiang3570@126.com.
+ * Author gmail：zstrong911@gmail.com.
+ * HomePage：(https://github.com/Qiang3570).
  * Activity that logs all key lifecycle callbacks to {@link Log}.
  * Output is also logged to the UI into a {@link LogFragment} through {@link #initializeLogging()}
  * and {@link #stopLogging()}.

@@ -21,6 +21,11 @@ import android.os.Bundle;
 import android.view.View;
 
 /**
+ * Author QQ：956595454.
+ * Android Group：158423375.
+ * Author email：Qiang3570@126.com.
+ * Author gmail：zstrong911@gmail.com.
+ * HomePage：(https://github.com/Qiang3570).
  * 此活动本身处理配置更改. 配置更改的列表
  * 支持在AndroidManifest定义中定义. 每个配置更改触发调用{@link #onConfigurationChanged(Configuration)}
  * 登录到{@link BaseLoggingActivity}。

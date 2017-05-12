@@ -20,9 +20,13 @@ import android.os.Bundle;
 import android.view.View;
 
 /**
+ * Author QQ：956595454.
+ * Android Group：158423375.
+ * Author email：Qiang3570@126.com.
+ * Author gmail：zstrong911@gmail.com.
+ * HomePage：(https://github.com/Qiang3570).
  * 在自由格式模式下，此活动将在屏幕上定义的界限内启动。
  * 此属性设置为启动此活动的Intent的一部分。
- *
  * @see com.johnny.multi_window.MainActivity#onStartLaunchBoundsActivity(View)
  */
 public class LaunchBoundsActivity extends BaseLoggingActivity {

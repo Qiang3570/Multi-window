@@ -7,6 +7,13 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+/**
+ * Author QQ：956595454.
+ * Android Group：158423375.
+ * Author email：Qiang3570@126.com.
+ * Author gmail：zstrong911@gmail.com.
+ * HomePage：(https://github.com/Qiang3570).
+ */
 public class MainActivity extends BaseLoggingActivity {
 
     @Override

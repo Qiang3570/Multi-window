@@ -20,9 +20,13 @@ import android.os.Bundle;
 import android.view.View;
 
 /**
+ * Author QQ：956595454.
+ * Android Group：158423375.
+ * Author email：Qiang3570@126.com.
+ * Author gmail：zstrong911@gmail.com.
+ * HomePage：(https://github.com/Qiang3570).
  * 此活动在 AndroidManifest 中定义为不支持多窗口模式.
  * 所以这个活动始终是以全屏模式显示，并且不会被系统调整大小.
- *
  * @see com.johnny.multi_window.MainActivity#onStartUnresizableClick(View)
  */
 public class UnresizableActivity extends BaseLoggingActivity {
