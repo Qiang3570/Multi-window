@@ -2,6 +2,8 @@
 
 * [点我阅读详细文档](https://github.com/Qiang3570/Multi-window/wiki)
 
+![alt](https://github.com/Qiang3570/Multi-window/raw/master/img/sample.gif)
+
 ## License
 Copyright [C 2017] [Qiang3570@126.com or zstrong911@gmail.com]
 
